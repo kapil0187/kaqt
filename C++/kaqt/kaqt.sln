@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaqt", "kaqt\kaqt.vcxproj", "{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaqt.apps.tt", "kaqt.apps.tt\kaqt.apps.tt.vcxproj", "{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaqt.apps.symbology.ca", "kaqt.apps.symbology.ca\kaqt.apps.symbology.ca.vcxproj", "{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaqt.apps.tt.symbologyparser", "kaqt.apps.tt.symbologyparser\kaqt.apps.tt.symbologyparser.vcxproj", "{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{023B65D3-17DA-4736-860F-813BEFF4C1B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{052DEBFE-AAD5-4720-8156-4283BCE6BE2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F3A6D706-CA29-4B4A-9B25-E183F4710FD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaqt.tests", "kaqt.tests\kaqt.tests.vcxproj", "{CF4B85DC-66C8-4924-B7BA-44BF213A449A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Debug|Win32.Build.0 = Debug|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Release|Win32.ActiveCfg = Release|Win32
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F}.Release|Win32.Build.0 = Release|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Debug|Win32.Build.0 = Debug|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Release|Win32.ActiveCfg = Release|Win32
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63}.Release|Win32.Build.0 = Release|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Debug|Win32.Build.0 = Debug|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Release|Win32.ActiveCfg = Release|Win32
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E}.Release|Win32.Build.0 = Release|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Debug|Win32.Build.0 = Debug|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Release|Any CPU.ActiveCfg = Release|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Release|Win32.ActiveCfg = Release|Win32
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD}.Release|Win32.Build.0 = Release|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Debug|Win32.Build.0 = Debug|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Release|Win32.ActiveCfg = Release|Win32
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDA10008-6CAD-4FD7-8FA9-26B95E85FA7F} = {023B65D3-17DA-4736-860F-813BEFF4C1B9}
+		{B1B8823B-D06F-431D-A3C1-8A1F9F794F63} = {052DEBFE-AAD5-4720-8156-4283BCE6BE2B}
+		{9755BC97-93CB-4FA2-9E19-04D7DB329C5E} = {052DEBFE-AAD5-4720-8156-4283BCE6BE2B}
+		{28C3C2CD-6A21-4074-A56C-E1E88D07EAFD} = {052DEBFE-AAD5-4720-8156-4283BCE6BE2B}
+		{CF4B85DC-66C8-4924-B7BA-44BF213A449A} = {F3A6D706-CA29-4B4A-9B25-E183F4710FD7}
+	EndGlobalSection
+EndGlobal

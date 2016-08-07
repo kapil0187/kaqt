@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\kaqt">
+      <UniqueIdentifier>{799615df-72f1-4633-9151-479bac6be3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kaqt\foundation">
+      <UniqueIdentifier>{b9174e88-cc3b-4e4b-8d0d-d3cf64b79471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kaqt\providers">
+      <UniqueIdentifier>{cd7547bd-ed3c-4a5f-85a6-1e7f9e7564cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kaqt\providers\tt">
+      <UniqueIdentifier>{5cefe989-9f9b-4954-9498-8d6fcefaec8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kaqt\providers\quickfix">
+      <UniqueIdentifier>{af23f403-e84c-42fa-8455-fe18d9fb7f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kaqt">
+      <UniqueIdentifier>{fbd17849-474c-4004-9683-1a1a9f0cf0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kaqt\foundation">
+      <UniqueIdentifier>{3ad754c6-26f3-4425-af33-07e51136e645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kaqt\providers">
+      <UniqueIdentifier>{e2baad32-05f0-4aec-932d-c261eb8f7406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kaqt\providers\tt">
+      <UniqueIdentifier>{ada4b677-3261-4809-b5aa-7f35b5d01689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kaqt\providers\quickfix">
+      <UniqueIdentifier>{eee17906-c48b-4272-985f-3c362f1588e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kaqt\providers\quickfix\fix42">
+      <UniqueIdentifier>{f065159f-378e-4cbd-891f-7cc53454a138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kaqt\providers\quickfix\fix42">
+      <UniqueIdentifier>{001ae5dd-142a-47e2-9f41-97832efcbc14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kaqt\providers\protobuf">
+      <UniqueIdentifier>{a7677fff-7630-46ef-8008-ae012f176a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kaqt\providers\protobuf">
+      <UniqueIdentifier>{0f90b92c-31e2-442d-b3ae-3acf182a36d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kaqt\symbology">
+      <UniqueIdentifier>{1ac9fe91-c06f-4e49-8804-dddcd2fe4583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kaqt\symbology">
+      <UniqueIdentifier>{6afe538a-19dd-451b-9169-88c2bf4f4ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kaqt\providers\zeromq">
+      <UniqueIdentifier>{95ec2bd4-2b27-4d15-b8c1-763cde7d6b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\spdlog">
+      <UniqueIdentifier>{fc6a8183-8dfc-43c8-bf48-e1ad4d5f63a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\spdlog\details">
+      <UniqueIdentifier>{e3689e33-6edb-4590-aadc-a3b6843c8a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\spdlog\sinks">
+      <UniqueIdentifier>{7864ae47-2459-49f6-b1d6-ad93eb9479e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\kaqt\providers\tt\fixadaptor_client.hpp">
+      <Filter>Header Files\kaqt\providers\tt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\providers\quickfix\fix42\message_factory.hpp">
+      <Filter>Header Files\kaqt\providers\quickfix\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\providers\tt\constants.hpp">
+      <Filter>Header Files\kaqt\providers\tt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\foundation\id_generator.hpp">
+      <Filter>Header Files\kaqt\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\providers\protobuf\levelone_quote.pb.h">
+      <Filter>Header Files\kaqt\providers\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\providers\protobuf\symbology.pb.h">
+      <Filter>Header Files\kaqt\providers\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\symbology\client.hpp">
+      <Filter>Header Files\kaqt\symbology</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\providers\zeromq\zhelpers.hpp">
+      <Filter>Header Files\kaqt\providers\zeromq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\symbology\symbol_factory.hpp">
+      <Filter>Header Files\kaqt\symbology</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\symbology\symbol_repository.hpp">
+      <Filter>Header Files\kaqt\symbology</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\foundation\csv_writer.hpp">
+      <Filter>Header Files\kaqt\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\providers\tt\symbology_parser.hpp">
+      <Filter>Header Files\kaqt\providers\tt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\providers\quickfix\log_reader.hpp">
+      <Filter>Header Files\kaqt\providers\quickfix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\async_logger.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\common.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\formatter.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\logger.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\spdlog.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\tweakme.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\async_log_helper.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\async_logger_impl.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\file_helper.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\format.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\line_logger.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\log_msg.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\logger_impl.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\mpmc_bounded_q.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\null_mutex.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\os.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\pattern_formatter_impl.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\registry.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\details\spdlog_impl.h">
+      <Filter>Header Files\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\sinks\base_sink.h">
+      <Filter>Header Files\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\sinks\file_sinks.h">
+      <Filter>Header Files\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\sinks\null_sink.h">
+      <Filter>Header Files\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\sinks\ostream_sink.h">
+      <Filter>Header Files\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\sinks\sink.h">
+      <Filter>Header Files\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\sinks\stdout_sinks.h">
+      <Filter>Header Files\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\sinks\syslog_sink.h">
+      <Filter>Header Files\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\foundation\singleton.hpp">
+      <Filter>Header Files\kaqt\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kaqt\foundation\factory.hpp">
+      <Filter>Header Files\kaqt\foundation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\kaqt\providers\tt\fixadaptor_client.cpp">
+      <Filter>Source Files\kaqt\providers\tt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\providers\quickfix\fix42\message_factory.cpp">
+      <Filter>Source Files\kaqt\providers\quickfix\fix42</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\providers\tt\constants.cpp">
+      <Filter>Source Files\kaqt\providers\tt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\foundation\id_generator.cpp">
+      <Filter>Source Files\kaqt\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\kaqt\providers\protobuf\levelone_quote.pb.cc">
+      <Filter>Source Files\kaqt\providers\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\kaqt\providers\protobuf\symbology.pb.cc">
+      <Filter>Source Files\kaqt\providers\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\symbology\client.cpp">
+      <Filter>Source Files\kaqt\symbology</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\symbology\symbol_factory.cpp">
+      <Filter>Source Files\kaqt\symbology</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\symbology\symbol_repository.cpp">
+      <Filter>Source Files\kaqt\symbology</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\providers\tt\symbology_parser.cpp">
+      <Filter>Source Files\kaqt\providers\tt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\foundation\csv_writer.cpp">
+      <Filter>Source Files\kaqt\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kaqt\providers\quickfix\log_reader.cpp">
+      <Filter>Source Files\kaqt\providers\quickfix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

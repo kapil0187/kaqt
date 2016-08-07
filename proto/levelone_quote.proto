@@ -1,0 +1,21 @@
+package kaqt.providers.protobuf;
+
+message LevelOneQuote {
+  required int32 instrument_id = 1;
+  required double bid = 2;
+  required double ask = 3;
+  required double last = 4;
+  required int32 bid_qty = 5;
+  required int32 ask_qty = 6;
+  required int32 last_qty = 7;
+  required int64 posix_time = 8;
+}
+
+message HLOC {
+  required int32 instrument_id = 1;
+  required double open = 2;
+  required double high = 3;
+  required double low = 4;
+  required double close = 5;
+  required int64 posix_time = 6;
+}

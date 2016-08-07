@@ -1,0 +1,78 @@
+package kaqt.providers.protobuf;
+
+message FuturesInstrumentRequest {
+  required RequestType type = 1;
+  optional string underlying = 2;
+  optional string exchange = 3;
+  
+  enum RequestType {
+	ALL = 0;
+	UNDERLYING = 1;
+	EXCHANGE = 2;
+  }
+}
+
+message FuturesInstrumentResponse {
+  repeated FuturesInstrument instruments = 1;
+}
+
+message FuturesInstrument {
+  required int32 id = 1;
+  required string ticker = 2;
+  optional string underlying = 3;
+  required string description = 4;
+  required string exchange_group = 5;
+  required string exchange = 6;
+  required int64 expiry_posix_datetime = 7;
+  required int32 min_order_size = 8;
+  required double tick_size = 9;
+  required double tradeable_tick_size = 10;
+  required string currency = 11;
+  repeated AlternateId alternate_id = 12;
+  repeated int32 constituents_ids = 13;
+  repeated int32 constituents_ratios = 14;
+}
+
+message AlternateId {
+  required string id_type = 1;
+  required string id = 2;
+  optional string description = 3;
+}
+
+message Instrument {
+  required int32 id = 1;
+  required InstrumentType type = 2;
+  required string ticker = 3;
+  required string description = 4;
+  required string exchange = 5;
+  optional string exchange_group = 6;
+  required int32 min_order_size = 7;
+  required double tick_size = 8;
+  required double tradeable_tick_size = 9;
+  required string currency = 10;
+  repeated AlternateId alternate_id = 11;
+  optional FutureSpecification futures_spec = 12;
+  optional OptionSpecification options_spec = 13;
+  
+  enum InstrumentType {
+        STOCK = 0;
+        FUTURE = 1;
+        OPTION = 2;
+        FOREX = 3;
+  }
+}
+
+message FutureSpecification {
+  required int64 expiry_posix_datetime = 1;
+  required string underlying = 2;
+}
+
+message OptionSpecification {
+  required double strike = 1;
+  required int64 expiry_posix_datetime = 2;
+  required string underlying = 3;
+}
+
+message ForexSpecification {
+  required string counter_currency = 1;
+}

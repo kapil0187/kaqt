@@ -1,0 +1,2 @@
+add_executable(kaqt.apps.symbology.ca ../src/kaqt/apps/symbology/ca_main.cpp)
+target_link_libraries(kaqt.apps.symbology.ca kaqt ${QUICKFIX_LIBRARIES} ${Boost_LIBRARIES} ${PROTOBUF_LIBRARIES} ${ZeroMQ_LIBRARIES})
