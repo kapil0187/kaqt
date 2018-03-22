@@ -27,8 +27,8 @@ public class App {
 
 		WebsocketClientConfiguration config = new WebsocketClientConfiguration(
 				EndPointRelatedConstants.API_URL
-						+ "/products/BTC-USD/book?level=3",
-				"wss://ws-feed.exchange.coinbase.com",
+						+ "/products/LTC-USD/book?level=3",
+				"wss://ws-feed.gdax.com",
 				"{\"type\":\"subscribe\",\"product_id\":\"LTC-USD\"}",
 				"dvtp-disco");
 
